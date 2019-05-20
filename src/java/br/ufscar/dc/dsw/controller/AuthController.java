@@ -7,9 +7,9 @@ package br.ufscar.dc.dsw.controller;
 
 import br.ufscar.dc.dsw.dao.DAOTokenLogin;
 import br.ufscar.dc.dsw.dao.DAOUsuario;
-import br.ufscar.dc.dsw.model.Papel;
-import br.ufscar.dc.dsw.model.TokenLogin;
-import br.ufscar.dc.dsw.model.Usuario;
+import br.ufscar.dc.dsw.pojo.Papel;
+import br.ufscar.dc.dsw.pojo.TokenLogin;
+import br.ufscar.dc.dsw.pojo.Usuario;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.util.List;

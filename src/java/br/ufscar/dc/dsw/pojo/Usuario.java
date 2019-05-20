@@ -1,4 +1,4 @@
-package br.ufscar.dc.dsw.model;
+package br.ufscar.dc.dsw.pojo;
 
 import br.ufscar.dc.dsw.dao.DAOPapel;
 import br.ufscar.dc.dsw.dao.DAOPapelUsuario;

@@ -2,13 +2,13 @@ package br.ufscar.dc.dsw.controller;
 
 import br.ufscar.dc.dsw.dao.DAOPapel;
 import br.ufscar.dc.dsw.dao.DAOPapelUsuario;
-import br.ufscar.dc.dsw.model.SiteDeVenda;
+import br.ufscar.dc.dsw.pojo.SiteDeVenda;
 import br.ufscar.dc.dsw.dao.DAOSiteDeVenda;
 import br.ufscar.dc.dsw.dao.DAOUsuario;
-import br.ufscar.dc.dsw.model.Papel;
-import br.ufscar.dc.dsw.model.PapelUsuario;
-import br.ufscar.dc.dsw.model.Promocao;
-import br.ufscar.dc.dsw.model.Usuario;
+import br.ufscar.dc.dsw.pojo.Papel;
+import br.ufscar.dc.dsw.pojo.PapelUsuario;
+import br.ufscar.dc.dsw.pojo.Promocao;
+import br.ufscar.dc.dsw.pojo.Usuario;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.sql.Date;

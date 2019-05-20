@@ -1,21 +1,23 @@
-package br.ufscar.dc.dsw.model;
+package br.ufscar.dc.dsw.pojo;
 
-public class SalaDeTeatro {
-
+public class SiteDeVenda {
     private String email;
     private String senha;
-    private String cnpj;
+    private String url;
     private String nome;
-    private String cidade;
+    private String telefone;
 
-    public SalaDeTeatro(String email, String senha, String cnpj, String nome, String cidade) {
+    public SiteDeVenda(String email, String senha, String url, String nome, String telefone) {
         this.email = email;
         this.senha = senha;
-        this.cnpj = cnpj;
+        this.url = url;
         this.nome = nome;
-        this.cidade = cidade;
+        this.telefone = telefone;
     }
 
+    public SiteDeVenda(String email) {
+        this.email = email;
+    }
 
     public String getEmail() {
         return email;
@@ -33,12 +35,12 @@ public class SalaDeTeatro {
         this.senha = senha;
     }
 
-    public String getCnpj() {
-        return cnpj;
+    public String getUrl() {
+        return url;
     }
 
-    public void setCnpj(String cnpj) {
-        this.cnpj = cnpj;
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     public String getNome() {
@@ -49,12 +51,13 @@ public class SalaDeTeatro {
         this.nome = nome;
     }
 
-    public String getCidade() {
-        return cidade;
+    public String getTelefone() {
+        return telefone;
     }
 
-    public void setCidade(String cidade) {
-        this.cidade = cidade;
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
-
+    
+    
 }

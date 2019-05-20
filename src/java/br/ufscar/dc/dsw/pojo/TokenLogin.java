@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.ufscar.dc.dsw.model;
+package br.ufscar.dc.dsw.pojo;
 
 import br.ufscar.dc.dsw.dao.DAOUsuario;
 import java.security.NoSuchAlgorithmException;
